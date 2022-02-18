@@ -1,1 +1,1 @@
-package me.dongpodu.mybatis.mapper;import java.util.List;import java.util.Map;public interface StudentMapper {    List<Map<String, Object>> selectAll();}
+package me.dongpodu.mybatis.mapper;import me.dongpodu.mybatis.model.Student;import java.util.List;import java.util.Map;public interface StudentMapper {    List<Map<String, Object>> selectAll();    int insert(Student student);}
